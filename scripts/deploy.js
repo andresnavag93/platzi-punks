@@ -9,7 +9,7 @@ const deploy = async () => {
   // We define PlatziPunks in the context
   const PlatziPunks = await ethers.getContractFactory("PlatziPunks");
   // Instance of the contract deployed
-  const deployed = await PlatziPunks.deploy();
+  const deployed = await PlatziPunks.deploy(10000);
 
   console.log("Platzi Punks is deployed at:", deployed.address);
 };
