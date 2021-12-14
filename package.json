@@ -1,0 +1,36 @@
+{
+  "name": "platzi-punks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "deploy": "npx hardhat run scripts/sample-script.js",
+    "deploy:rinkeby": "npx hardhat run scripts/sample-script.js --network rinkeby",
+    "deploy:ropsten": "npx hardhat run scripts/sample-script.js --network ropsten"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andresnavag93/platzi-punks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andresnavag93/platzi-punks/issues"
+  },
+  "homepage": "https://github.com/andresnavag93/platzi-punks#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "chai": "^4.3.4",
+    "dotenv": "^10.0.0",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.5.2",
+    "hardhat": "^2.7.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.0"
+  }
+}
