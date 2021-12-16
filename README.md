@@ -1,8 +1,17 @@
-# Basic Sample Hardhat Project
+# Platzi Punks
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+- Learning how to create NFT smart contracts (Education Purposes).
 
-Try running some of the following tasks:
+### Technologies / Tools
+
+- Solidity
+
+### System requirements
+
+- node ^v16.13.1
+- npm ^v8.1.2
+
+### Hard Hat Commands
 
 ```shell
 npx hardhat accounts
@@ -13,3 +22,4 @@ npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
 ```
+##### Developed by: Andres Navarro
